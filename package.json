@@ -1,5 +1,5 @@
 {
-  "name": "ttt",
+  "name": "@fillipe143/ttt",
   "version": "1.0.0",
   "description": "A simple tic-tac-toe game module",
   "main": "index.js",

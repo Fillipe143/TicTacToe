@@ -7,7 +7,7 @@ function createGame({ j0 = '-', j1 = 'x', j2 = 'o', preloadedCoord, debug = fals
             printDebug('A coordenada já foi jogada!')
             return false
         }
-        
+
         board[coord] = round
         printDebug(`Jogador da vez: ${round}\nPosição jogada: ${coord}\n${getBoard()}`)
         checkFinished()
@@ -25,7 +25,7 @@ function createGame({ j0 = '-', j1 = 'x', j2 = 'o', preloadedCoord, debug = fals
 
         if (winner !== j0) {
             printDebug(`Partida finalizada!\nResultado: ${winner}`)
-            if(onFinished !== undefined) onFinished(winner)
+            if (onFinished !== undefined) onFinished(winner)
         }
     }
 
