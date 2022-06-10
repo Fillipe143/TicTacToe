@@ -1,0 +1,23 @@
+{
+  "name": "ttt",
+  "version": "1.0.0",
+  "description": "A simple tic-tac-toe game module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fillipe143/TicTacToe.git"
+  },
+  "keywords": [
+    "Game",
+    "TicTacToe"
+  ],
+  "author": "Fillipe143",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fillipe143/TicTacToe/issues"
+  },
+  "homepage": "https://github.com/Fillipe143/TicTacToe#readme"
+}
